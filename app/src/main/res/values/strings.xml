@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">Gestures App</string>
+    <string name="use_gestures_textView">Use Gestures</string>
+</resources>
