@@ -28,6 +28,7 @@ public class MainActivity extends AppCompatActivity
 
     }
 
+    // The "onTouchEvent" method outline is one of the built in Overridden methods (CTRL+O or under ALT+Insert). Just add "gestureDetect".
     @Override
     public boolean onTouchEvent(MotionEvent event) {
         gestureDetect.onTouchEvent(event);
@@ -35,7 +36,7 @@ public class MainActivity extends AppCompatActivity
     }
 
 
-
+    // The method outlines from "onSingleTapConfirmed" down are automatically generated from Alt+Enter after adding the Interfaces. Just add "useGestureTextView".
     @Override
     public boolean onSingleTapConfirmed(MotionEvent e) {
         useGestureTextView.setText("onSingleTapConfirmed" +e.toString());
